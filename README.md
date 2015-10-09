@@ -33,6 +33,8 @@ Here is a high level overview of the important files in this project:
 
 Use the production HauteLook Events API to list all the events in a grid format. Go to the index web page for detailed instructions. You are free to use whatever JS/CSS packages, libraries, tools and frameworks to complete the task. However, you must use React to render the markup into the DOM. You will be judged on the quality of code, the use of React and the look of the webpage on both a laptop and a mobile device. You do not need to minify or compress the JS or CSS. However, you are encouraged to organize your JS and CSS in a way you think is best for someone to review the code.
 
+The data for the days events is at `/events` on the node server. The response is in [Hal][Hal] json format.
+
 ### Instructions
 
 Here are the design instructions for both **Desktop** and **Mobile** web pages. The design should be responsive to the different form factors.
@@ -73,4 +75,4 @@ You can use this example image for reference:
 
 Need help? Please reach out to us! We know computers can be tricky things and we are happy to assist you. Our contact details are in the email we sent you. We will get back to you as soon as we can.
 
-
+[Hal]: http://stateless.co/hal_specification.html
