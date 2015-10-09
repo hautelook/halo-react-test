@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "request": "^2.48.0"
+  },
+  "devDependencies": {
+  }
+}

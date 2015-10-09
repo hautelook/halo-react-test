@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <title>HauteLook React Test - Design Information</title>
+  </head>
+  <body>
+
+    <h1>HauteLook React Test - Design Information</h1>
+
+    <p>The page contains design instructions for both <strong>Desktop</strong> and <strong>Mobile</strong> web pages. The design should be responsive to the different form factors.</p>
+
+    <h2>Desktop</h2>
+    <p>Reference device is a 15" laptop screen (no retina) using Chrome.</p>
+    <ul>
+      <li>The grid of events should start 48px from the top of the webpage</li>
+      <li>The first event will be a large image. Use the `http://hautelook.com/rels/images/event-hero` link relation in the json response. Note: the first image has the title burned into the image.</li>
+      <li>All subsequent images be side by side. Use the `http://hautelook.com/rels/images/event-square` link relation in the json response.</li>
+      <li>Each row has 36px of whitespace beneath it.</li>
+      <li>The smaller, side by side, images have 16px of whitespace.</li>
+      <li>The event title is Arial 18px, color #fff</li>
+      <li>The rectangle border at the bttom of the smaller images is rgb(44,56,87) with 75% opacity</li>
+      <li>If there are an odd number of events, show the last image on the left side and leave the right side blank.</li>
+    </ul>
+
+    <p>You can use this example image for reference:<br /><img src="/images/desktop-example.png" /></p>
+
+    <h2>Mobile</h2>
+    <p>Reference device is a iPhone 6 (emulated).</p>
+    <ul>
+      <li>The grid of events should start 16px from the top of the webpage</li>
+      <li>There should be one image per row. Use the `http://hautelook.com/rels/images/event-main` link relation in the json response. The image should take up the entire width of the screen.</li>
+      <li>Each row has 8px of whitespace beneath it.</li>
+      <li>The event title is Arial 18px, color #fff</li>
+      <li>The rectangle border at the bttom of the smaller images is rgb(44,56,87) with 75% opacity</li>
+      <li>If there are an odd number of events, show the last image on the left side and leave the right side blank.</li>
+    </ul>
+
+    <p>You can use this example image for reference:<br /><img src="/images/mobile-example.png" /></p>
+
+
+  </body>
+</html>
