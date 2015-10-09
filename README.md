@@ -42,11 +42,12 @@ Here are the design instructions for both **Desktop** and **Mobile** web pages. 
 
 Reference device is a 15" laptop screen (no retina) using Chrome.
 
-   * The grid of events should start 48px from the top of the webpage
-   * The first event will be a large image. Use the `http://hautelook.com/rels/images/event-hero` link relation in the json response. Note: the first image has the title burned into the image.
-   * All subsequent images be side by side. Use the `http://hautelook.com/rels/images/event-square` link relation in the json response.
+   * The grid of events should start 48px from the top of the webpage and be centered. The width of the grid should not exceed 960px.
+   * The first event will be a large image. Use the `http://hautelook.com/rels/images/event-hero` link relation in the json response.
+      * Note: the first image has the title burned into the image.
+   * All subsequent images will be side by side. Use the `http://hautelook.com/rels/images/event-main` link relation in the json response.
    * Each row has 36px of whitespace beneath it.
-   * The smaller, side by side, images have 16px of whitespace.
+   * The smaller, side by side, images have 16px of whitespace in between them.
    * The event title is Arial 18px, color #fff
    * The rectangle border at the bttom of the smaller images is rgb(44,56,87) with 75% opacity
    * If there are an odd number of events, show the last image on the left side and leave the right side blank.
@@ -64,7 +65,6 @@ Reference device is a iPhone 6 (emulated).
    * Each row has 8px of whitespace beneath it.
    * The event title is Arial 18px, color #fff
    * The rectangle border at the bttom of the smaller images is rgb(44,56,87) with 75% opacity
-   * If there are an odd number of events, show the last image on the left side and leave the right side blank.
 
 You can use this example image for reference:
 
