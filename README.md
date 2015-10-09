@@ -28,7 +28,6 @@ Here is a high level overview of the important files in this project:
 
    * `server.js` - The express server
    * `public/index.html` - The page to display all the events
-   * `public/design.html` - Design comp information
 
 ## Challenge
 
