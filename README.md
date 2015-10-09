@@ -32,7 +32,7 @@ Here is a high level overview of the important files in this project:
 
 ## Challenge
 
-Use the production HauteLook Events API to list all the events in a grid format. Go to the index web page for detailed instructions. You are free to use whatever JS/CSS packages, libraries, tools and frameworks to complete the task. However, you must use React to render the markup into the DOM. You will be judged on the quality of code, the use of React and the look of the webpage. You do not need to minify or compress the JS or CSS. However, you are encouraged to organize your JS and CSS in a way you think is best for someone to review the code.
+Use the production HauteLook Events API to list all the events in a grid format. Go to the index web page for detailed instructions. You are free to use whatever JS/CSS packages, libraries, tools and frameworks to complete the task. However, you must use React to render the markup into the DOM. You will be judged on the quality of code, the use of React and the look of the webpage on both a laptop and a mobile device. You do not need to minify or compress the JS or CSS. However, you are encouraged to organize your JS and CSS in a way you think is best for someone to review the code.
 
 ### Support
 
