@@ -28,12 +28,15 @@ Here is a high level overview of the important files in this project:
 
    * `server.js` - The express server
    * `public/index.html` - The page to display all the events
+      * This page includes react and babel (for JSX support) libraries as well.
 
 ## Challenge
 
-Use the production HauteLook Events API to list all the events in a grid format. Go to the index web page for detailed instructions. You are free to use whatever JS/CSS packages, libraries, tools and frameworks to complete the task. However, you must use React to render the markup into the DOM. You will be judged on the quality of code, the use of React and the look of the webpage on both a laptop and a mobile device. You do not need to minify or compress the JS or CSS. However, you are encouraged to organize your JS and CSS in a way you think is best for someone to review the code.
+Use the production HauteLook Events API to list all the events in a grid format. The data for the days events is at `/events` on the node server. The response is in [Hal][Hal] json format. The index web page a link to the events API as well.
 
-The data for the days events is at `/events` on the node server. The response is in [Hal][Hal] json format.
+To keep things relatively simple, this project is setup to use react and JSX in the browser. You can use these libraries in node, but do not feel obligated to.
+
+You are free to use whatever JS/CSS packages, libraries, tools and frameworks to complete the task. However, you must use React to render the markup into the DOM. You will be judged on the quality of code, the use of React and the look of the webpage on both a laptop and a mobile device. You do not need to minify or compress the JS or CSS. However, you are encouraged to organize your JS and CSS in a way you think is best for someone to review the code.
 
 ### Instructions
 
